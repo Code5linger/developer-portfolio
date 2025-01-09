@@ -133,6 +133,14 @@ main {
   background-color: var(--color-light-02);
 }
 
+main {
+  /* background-image: url('./assets/developer.png'), url('./assets/bg.svg'); */
+  background-image: url('./assets/bg.svg');
+  background-repeat: no-repeat, no-repeat;
+  background-position: center top, center bottom;
+  background-size: cover, contain;
+}
+
 .hero {
   display: flex;
   justify-content: space-between;
